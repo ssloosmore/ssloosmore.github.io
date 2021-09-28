@@ -1,0 +1,22 @@
+body {
+    background-color: burlywood;
+}
+
+.nav {
+    list-style-type: none;
+    background-color: crimson;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: darkgoldenrod;
+    text-decoration: none;
+}
