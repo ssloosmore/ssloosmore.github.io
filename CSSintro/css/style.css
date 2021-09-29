@@ -20,3 +20,12 @@ ul.nav li a {
     color: darkgoldenrod;
     text-decoration: none;
 }
+
+ul.nav li a:hover {
+    background-color: darksalmon;
+    color: dodgerblue;
+}
+
+.active{
+    background-color: bisque;
+}
