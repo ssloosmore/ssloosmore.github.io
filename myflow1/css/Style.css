@@ -43,6 +43,11 @@ table.gal {
     align-items: center;
 }
 
+table.gald {
+    width: 100%;
+    align-content: center;
+}
+
 .active {
     background-color: whitesmoke;
 }
