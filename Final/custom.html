@@ -62,46 +62,56 @@
         </nav>
 
         <div class="container-fluid border-bottom p-5 ">
-            <h1 class="text-center"> The Ultamate Flex.</h1>
+            <h1 class="text-center"> Your Ultamate Flex. </h1>
+            <form method="POST" action="https://four11.eastsideprep.org/epsnet/form_debug">
+                <input type="hidden" name="login" value="sloosmore" />
+                <input type="hidden" name="return_url" value="https://www.amazon.com/">
 
-            <div class="container px-4 mt-5 text-black">
-                <div class="row gx-3">
-                    <div class="col text-black">
-                        <div class="p-3 border text-center bg-white">
-                            <a href="">
-                                <h2 class="text-black">Pensil Case</h2>
-                                <img src="" alt="">
-                                <h3 class="text-secondary c">Comming Soon...</h3>
-
-                            </a>
-                        </div>
+                <div class="row mt-5 ">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
                     </div>
                     <div class="col">
-                        <div class="p-3 border text-center bg-white">
-                            <a href="">
-                                <h2 class="text-black"> Book Mark</h2>
-                                <img src="" alt="">
-                                <h3 class="text-secondary c">Comming Soon...</h3>
-
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="p-3 border text-center bg-white">
-                            <a href="">
-                                <h2 class="text-black">Paper Stand</h2>
-                                <img src="" alt="">
-                                <h3 class="text-secondary c">Comming Soon...</h3>
-
-                            </a>
-
-                        </div>
+                        <input type="text" class="form-control" placeholder="Last name">
                     </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="inputState"> </label>
+                        <select id="inputState" class="form-control">
+                  <option selected> Choose your Product</option>
+                  <option>Sticky note container</option>
+                    <option>Pencil Case</option>
+                    <option>Pen organizer</option>
+                    </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4"></label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="What name, logo, or text can we put on this product and where?"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-outline-success text-center mt-5">Submit</button>
+            </form>
+
         </div>
+
+
+
+
+
+
     </div>
+
+
+
+
+
 </body>
 
 </html>
