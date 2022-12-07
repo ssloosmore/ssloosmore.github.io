@@ -47,3 +47,45 @@ a:active {
 a.lo {
     color: brown;
 }
+
+div.hover-div {
+    color: aqua;
+    background: blue;
+    padding: 10px;
+}
+
+.hover-div:hover {
+    background-color: azure;
+}
+
+p:first-child {
+    color: red;
+}
+
+p:last-child {
+    font-size: large;
+}
+
+.tooltip p {
+    display: none;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.tooltip:hover p {
+    display: contents;
+}
+
+.go::first-letter {
+    color: red;
+}
+
+.go::before {
+    content: "Read this";
+    font-weight: bold;
+}
+
+.go::after {
+    content: "-dont";
+    font-weight: bold;
+}
