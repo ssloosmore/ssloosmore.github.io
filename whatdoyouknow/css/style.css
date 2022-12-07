@@ -108,7 +108,7 @@ h1 {
         top: 0px;
     }
     100% {
-        transform: rotate(1000), translate(500px);
+        transform: rotate(360deg), translate(500px);
         right: 200px;
         top: 0px;
     }
