@@ -103,7 +103,7 @@ h1 {
 
 @keyframes pam {
     0% {
-        transform: rotate(0), translate(0);
+        transform: rotate(0deg), translate(0);
         right: 0px;
         top: 0px;
     }
