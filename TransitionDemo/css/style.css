@@ -141,3 +141,98 @@ body {
         perspective-origin: 100%;
     }
 }
+
+@keyframes grad {
+    0% {
+        background-image: linear-gradient(to bottom right, red, orange);
+    }
+    5.55% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, red, orange);
+    }
+    11.11% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, orange, yellow);
+    }
+    16.66% {
+        background-image: linear-gradient(to bottom right, orange, yellow);
+    }
+    22.22% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, orange, yellow);
+    }
+    27.77% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, yellow, green);
+    }
+    33.33% {
+        background-image: linear-gradient(to bottom right, yellow, green);
+    }
+    38.88% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, yellow, green);
+    }
+    44.44% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, green, blue);
+    }
+    50% {
+        background-image: linear-gradient(to bottom right, green, blue);
+    }
+    55.55% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, green, blue);
+    }
+    61.11% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, blue, purple);
+    }
+    66.66% {
+        background-image: linear-gradient(to bottom right, blue, purple);
+    }
+    72.22% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, blue, purple);
+    }
+    77.77% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, purple, red);
+    }
+    83.33% {
+        background-image: linear-gradient(to bottom right, purple, red);
+    }
+    88.88% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, purple, red);
+    }
+    94.44% {
+        opacity: 50%;
+        background-image: linear-gradient(to bottom right, red, orange);
+    }
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    animation-duration: .4s;
+    animation-delay: .5s;
+    animation-name: pam;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    background-color: black;
+}
+
+@keyframes pam {
+    0% {
+        transform: rotate(0deg), translate(0);
+        right: 0px;
+        top: 0px;
+    }
+    100% {
+        transform: rotate(360deg), translate(500px);
+        right: 200px;
+        top: 0px;
+    }
+}

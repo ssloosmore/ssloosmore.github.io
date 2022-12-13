@@ -8,6 +8,14 @@ h1 {
     text-shadow: 1%;
 }
 
+.tool p {
+    display: none;
+}
+
+.tool:hover p {
+    display: contents;
+}
+
 .box {
     height: 500px;
     width: 500px;
@@ -90,26 +98,81 @@ h1 {
 }
 
 .box2 {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     border-radius: 10%;
-    animation-duration: .4s;
-    animation-delay: .5s;
-    animation-name: pam, grad;
+    animation-duration: .6s;
+    animation-delay: .8s;
     animation-iteration-count: infinite;
+    animation-name: pam, grad;
     animation-timing-function: linear;
     animation-direction: alternate;
 }
 
 @keyframes pam {
     0% {
-        transform: rotate(0deg), translate(0);
-        right: 0px;
-        top: 0px;
+        rotate: 0deg;
+        translate: 0px;
     }
     100% {
-        transform: rotate(360deg), translate(500px);
-        right: 200px;
-        top: 0px;
+        rotate: 1000deg;
+        translate: 1440px;
     }
+}
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    animation-duration: .6s;
+    animation-delay: .11s;
+    animation-iteration-count: infinite;
+    animation-name: pam, grad;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.box5 {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    animation-duration: .6s;
+    animation-delay: .14s;
+    animation-iteration-count: infinite;
+    animation-name: pam, grad;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.box6 {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    animation-duration: .6s;
+    animation-delay: .17s;
+    animation-iteration-count: infinite;
+    animation-name: pam, grad;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.box7 {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    animation-duration: .6s;
+    animation-delay: .20s;
+    animation-iteration-count: infinite;
+    animation-name: pam, grad;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+.str img {
+    width: 100px;
+}
+
+.str:hover img {
+    width: 500px;
+    height: 100px;
 }
