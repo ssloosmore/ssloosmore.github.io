@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,6 +19,14 @@ body {
     padding: 20px;
     margin-bottom: 20px;
 }
+
+img {
+    height: auto;
+    width: 80%;
+    border-radius: 20px;
+
+}
+
 .left {
     float: left;
     width: 20%;
@@ -59,17 +68,33 @@ padding: 0 30px;
 }
 .right-t{
     float: right;
-width: 35%;
-padding: 0 20px;
+    width: 35%;
+    padding: 0 20px;
+    border-radius: 20%;
 
 }
 .leftbottom {
+    margin-top: 40px;
     width: 65%;
     float: left;
+    padding-left: 20px;
     padding: 0 30px;
+    object-fit: contain;
+    height: 200px;
+
 }
 
-.i-left, .br, .bll, .tl, .tr {
+ .tl, .tr {
+    float: left;
+    width: 25%;
+}
+
+.bll, .br {
+    margin-top: 20px;
+    width: 75%;
+}
+
+.i-left {
     float: left;
     width: 25%;
 }
@@ -105,6 +130,14 @@ padding: 0 20px;
     clear: both;
     margin-top: 10px;
 }
+
+.spimg {
+    width: 40%;
+    float: right;
+    object-fit: contain;
+
+}
+
 footer {
     width: 60%;
     margin: auto;
@@ -126,12 +159,16 @@ footer {
     
     .i-left, .br, .bll, .tl, .tr {
         width: 50%;
-float: left;
+        float: left;
     }
 
     .i-right {
         float: right;
         width: 50%;
+    }
+    img {
+        height: auto;
+        width: 80%;
     }
 
 }
@@ -139,5 +176,9 @@ float: left;
     .left, .main, .right, .smallright, .smallleft, .bigright, .bigleft{
 width: 100%;
 padding: 10px;
+    }
+    img {
+        height: auto;
+        width: 80%;
     }
 }
