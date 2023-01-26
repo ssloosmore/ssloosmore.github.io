@@ -45,6 +45,58 @@ body {
     padding: 15px 0;
 }
 
+
+
+.lefttop {
+    float: left;
+    width: 30%; 
+}
+.midt{
+float: left;
+width: 35%;
+padding: 0 30px;
+
+}
+.right-t{
+    float: right;
+width: 35%;
+padding: 0 20px;
+
+}
+.leftbottom {
+    width: 65%;
+    float: left;
+    padding: 0 30px;
+}
+
+.i-left, .br, .bll, .tl, .tr {
+    float: left;
+    width: 25%;
+}
+
+.i-right{
+    float: right;
+    width: 25%;
+}
+
+.bigleft {
+    float: left;
+    width: 70%;
+}
+.smallright {
+    float: left;
+    width: 30%;
+}
+.smallleft {
+    float: left;
+    width: 30%;
+}
+.bigright {
+    float: left;
+    width: 70%;
+}
+
+
 .footer {
     text-align: center;
     background-color: white;
@@ -66,9 +118,25 @@ footer {
         width: 100%;
         padding: 20px;
     }
+   
+    .smallright, .smallleft, .bigright, .bigleft {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .i-left, .br, .bll, .tl, .tr {
+        width: 50%;
+float: left;
+    }
+
+    .i-right {
+        float: right;
+        width: 50%;
+    }
+
 }
 @media only screen and (max-width:620px) {
-    .left, .main, .right{
+    .left, .main, .right, .smallright, .smallleft, .bigright, .bigleft{
 width: 100%;
 padding: 10px;
     }
