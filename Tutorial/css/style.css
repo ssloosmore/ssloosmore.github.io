@@ -1,0 +1,23 @@
+.left {
+    background: lightblue
+}
+
+.right {
+    background: lightblue;
+}
+
+.grid {
+    height: 50vh;
+    background: lightcoral;
+    gap: 3px;
+    transition: 400ms;
+    display: grid;
+    grid-template-columns: 48px auto;
+}
+
+.grid:has(.left:hover) {
+    grid-template-columns: 50% auto;
+}
+.left:hover {
+    background-color: lightcoral;
+}
