@@ -30,7 +30,7 @@ color: grey;
 }
 
 .grid:has(.left:hover) {
-    grid-template-columns: 95% auto;
+    grid-template-columns: 90% auto;
 }
 .left:hover {
     background-color: white;
