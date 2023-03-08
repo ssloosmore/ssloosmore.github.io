@@ -23,7 +23,7 @@ color: grey;
     height: auto;
     background: gray;
     gap: 3px;
-    transition: 400ms;
+    transition: 800ms;
     display: grid;
     grid-template-columns: 48px auto;
     margin-bottom: 20px;
