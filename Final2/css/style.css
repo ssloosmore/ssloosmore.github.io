@@ -20,7 +20,7 @@ color: grey;
 }
 
 .grid {
-    height: auto;
+    height: 80vh;
     background: gray;
     gap: 3px;
     transition: 800ms;
